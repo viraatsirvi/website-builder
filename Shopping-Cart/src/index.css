@@ -1,0 +1,143 @@
+
+.nav-wrapper{
+    background: linear-gradient(10deg, black, red);
+}
+.right {
+    display: flex;
+    margin: 0 52px;
+}
+.right div{
+    order: 1;
+    padding: 10px;
+}
+ a{
+    text-decoration: none;
+    color: #fff
+}
+.card{
+    width: 300px;
+}
+
+.cart{
+    margin-top:40px;
+}
+.collection{
+    width: 100%;
+}
+.collection .collection-item{
+    margin: 0px 0px 15px;
+    display: flex;
+    width: 95%;
+    border-bottom: 1px solid #ddd;
+
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ee6e73;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+}
+
+.srch-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 88%;
+    margin: 10px auto;
+    background: #fff;
+    line-height: 1.55;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.srch-card .srch-img {
+    width: 30%;
+    padding: 10px 25px;
+    position: relative;
+}
+.srch-img img{
+    width:100px;
+    height:100px;
+}
+.srch-offer{
+    width: 45%;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    background: #1a8443;
+}
+.srch-content{
+    width: 60%;
+}
+.brand{
+    font-weight: 700;
+    font-size: 20px;
+    color: #2e842f;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 86.5%;
+    background: #9f9999;
+    margin: 0 65px;
+}
+.add-remove{
+    display: flex;
+}
+.cart-btn{
+    width: 50%;
+    padding: 20px 0;
+}
+.cart-btn span{
+    background: #24ac58;
+    padding: 7px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.total-qty{
+    width: 49%;
+    padding: 20px 0;
+    display: flex;
+}
+.item-qty{
+    background: #24ac58;
+    border-radius: 5px;
+    padding: 2px;
+}
+.details-wrapper{
+    display: flex;
+    padding: 10px 35px;
+    background: #9f9999
+}
+.details-btn{
+    color: #fff;
+    background: #24ac58;
+    border: 0;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+.details-btn:hover ,.cart-btn span:hover{
+    background: #1a8443;
+}
+.qty {
+    padding: 1px 5px 3px 5px;
+    background: #55914d;
+    font-weight: 700;
+}
+.added-item{
+    margin: 0 5px;
+}
+.submit-btn {
+    color: #fff;
+    border: 0;
+    background: #f8dc33;
+    padding: 10px;
+    border-radius: 4px;
+}
